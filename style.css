@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+table tr{
+    height: 100px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    background-color: rgb(172, 196, 196);
+    min-width: 100px;
+    text-align: center;
+    font-size: 3.6rem;
+}
+td:hover{
+    background-color: rgb(163, 200, 200);
+}
